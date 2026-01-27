@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo do heroi</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <script type="module" src="./src/script/script.js"></script>
 </head>
-<body onload="">
+<body>
+    
     <header>
         <nav>
             <a href="./index.html"> Inicio </a>
@@ -19,6 +21,16 @@
         <section id="inicio">
         <h1> bem - vindo(a) ao desafio de código </h1>
         <p> Jogo do heroi, desafio feito pela empresa <a href="https://web.dio.me/"> dio.me </a></p>
+        </section>
+
+        <section id="form-heroi">
+
+                <!--- Inserir dados do XP do Heroi-->
+                <input type="text" name="value_name" id="inputName" placeholder="insira o nome do heroi">
+                <input type="number" name="value_xp" id="input_xp" placeholder="insira o valor do XP">
+                <input type="submit" value="enviar" id="btnEnviar">
+                
+                <h1 id="resultado_heroi"></h1>
         </section>
     </main>    
     <hr>
