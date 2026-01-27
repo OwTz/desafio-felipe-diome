@@ -1,0 +1,19 @@
+
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    padding: 1.5pt;
+}
+
+nav a:hover{
+    background-color: rgba(23, 90, 59, 0.506);
+}
+
+nav {
+    text-align: center;
+    background-color: rgba(43, 49, 59, 0.195);
+}
+
+
+

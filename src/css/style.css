@@ -1,0 +1,12 @@
+@import url('./menu/style-menu.css');
+@import url('./body/style-body.css');
+body{
+    margin: auto;
+    padding: 0%;
+
+}
+
+
+footer {
+    text-align: center;
+}
